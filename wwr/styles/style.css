@@ -2,6 +2,15 @@
 #background {
     height : 725px;
 }
+#hero-msg h1,#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
 
 body{
     background-color:whitesmoke
@@ -13,6 +22,53 @@ nav a:hover{
     background-color:black
     color #d9c2a3;
 }
+.home-title {
+    background-color: black
+    color white
+}
+H4 {
+    background-color: rgb(17, 237, 61)
+    COLOR #ffffff
+}
+.book, .join {
+    text-align: center;
+    background-color: white;
+    color: #000000;
+    text-decoration: none;
+}
+.book:hover, .join:hover{
+    background-color: pink;
+    color : #000000
+}
+.msg h2 {
+    background-color: gray;
+    color: white;
+}
+.msg p {
+    background-color: gray;
+    color:white
+}
+#background {
+    background-color:#d9c2a3;
+}
+.msg {
+    background-color:gray
+    
+}
+footer {
+    background-color: gray;
+    color: #000000;
+}
+footer a {
+    text-align: center;
+    text-decoration: none;
+    background-color: gray;
+    color: #000000
+    
+}
+footer a:hover {
+    color: blue;
+}
 
 .icon {
     width: 80px;
@@ -21,6 +77,8 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+
+
 }
 footer p {
     font-size: 1.2em;
