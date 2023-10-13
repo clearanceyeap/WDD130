@@ -1,4 +1,7 @@
-
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato&family=Montserrat:wght@600&family=Roboto+Slab&family=Roboto:wght@500&family=Rock+Salt&display=swap');
 #background {
     height : 725px;
 }
@@ -13,8 +16,16 @@ main section {
 }
 
 body{
+    font-family: 'Roboto','Rock salt','sans-serif';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     background-color:whitesmoke
 }
+h2{
+    margin: 0;
+}
+
 header{
     background-color: rgba(20, 30, 13, 7);
 }
@@ -31,10 +42,13 @@ H4 {
     COLOR white
 }
 .book, .join {
-    text-align: center;
-    background-color: white;
+    background-color: #d9c2a3;
     color: #000000;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover{
     background-color: pink;
@@ -45,17 +59,26 @@ H4 {
     color: white;
 }
 .msg p {
+    font-family: 'Rock Salt', 'Bradley Hand', 'montserrat';
+    font-size: .8em;
+    padding-bottom: 15px;
     background-color: gray;
     color:white
+    
 }
 #background {
     background-color:#d9c2a3;
 }
 .msg {
+    line-height: 1.5em;
+    padding: 35px;
     background-color:gray
+    
     
 }
 footer {
+    padding: 25px 50px;
+    margin-top: 200px;
     background-color: gray;
     color: #000000;
 }
@@ -72,8 +95,10 @@ footer a:hover {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 nav a {
+    padding: 35px;
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
@@ -85,5 +110,25 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
-}       
-              
+}
+
+.home-title{
+    font-family:'Rock Salt' , 'Bradley Hand' , 'montserrat';
+    font-size: 2em;
+    margin-top: 10px;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #000000;
+}
+main-section img{
+    box-sizing: border-box;
+}
