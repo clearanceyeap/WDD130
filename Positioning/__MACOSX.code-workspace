@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../Positioning/__MACOSX"
+		},
+		{
+			"path": "../../Positioning/positioning"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "positioning"
+	}
+}
