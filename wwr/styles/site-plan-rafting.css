@@ -55,6 +55,8 @@ hr {
   background: var(--accent1-color);
 }
 header {
+  display: grid;
+  grid-template-columns: 150px auto;
   padding: 1em;
   text-align: center;
   color: var(--headline-color-on-color);
@@ -106,6 +108,7 @@ nav {
 nav  {
   list-style-type: none;
   display: flex;
+  justify-content: space-around;
 }
 nav a {
   padding:1em;
@@ -163,3 +166,4 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
