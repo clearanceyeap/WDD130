@@ -19,9 +19,9 @@ Fonts are separated by a | */
   --headline-color-on-white: #e86006;  /* headlines on a white background */ 
   --headline-color-on-color: black; /* headlines on a colored background */ 
   --paragraph-color-on-white: black; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-color-on-color: rgb(45, 236, 7); /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
+  --nav-link-color: black;
   --nav-background-color: #D4AC0D;
   --nav-hover-link-color: rgb(241, 249, 9);
   --nav-hover-background-color: #396E94;
@@ -156,17 +156,17 @@ nav a:hover {
 }
 .sm-home {
   grid-area: home;
-  background-color: #ccc;
+  background-color: green;
   line-height: 3em;
 }
 .sm-page2 {
   grid-area: page2;
-  background-color: #ccc;
+  background-color: green;
   line-height: 3em;
 }
 .sm-page3 {
   grid-area: page3;
-  background-color: #ccc;
+  background-color: green;
   line-height: 3em;
 }
 
