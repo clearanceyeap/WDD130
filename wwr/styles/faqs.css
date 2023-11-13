@@ -1,0 +1,147 @@
+/* faqs.css */
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto&family=Rubik:wght@300&display=swap');
+
+
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    border-radius: 50px;
+}
+header {
+    background-color:#000000;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+nav a{
+    text-align: center;
+    color:yellow;
+    text-decoration: none;
+    font-family: 'lobster';
+    padding: 35px;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+h1 {
+    color:darkorchid;
+    font: 500;
+    
+}
+
+
+
+main section {
+    text-align: center;
+    font-family: 'roboto';
+}
+section {
+    font-size: larger;
+}
+
+
+
+
+
+
+body {
+    
+  background-size: cover; /* Adjusts the size of the background image to cover the entire body */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
+  /* You can add more background-related properties as needed */
+}
+
+
+
+main section img {
+    box-sizing: border-box;
+}
+
+
+
+h2 {
+    margin: 0;
+    color: black;
+    font-family: "roboto";
+}
+p{
+    color:white;
+    font-size: medium;
+    font-family: "roboto";
+}
+
+
+footer {
+    background-color: #000000;
+    color: yellow;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+    font-family: 'roboto';
+    color: #ffd900;
+}  
+
+
+
+footer a {
+    text-decoration: none;
+    font-family: 'Lobster';
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #6bd41fb3;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding: 30px;
+}
+
+
+    
+    footer {
+        margin-top: 25px;
+    }
+
+    
