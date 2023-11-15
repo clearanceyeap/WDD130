@@ -11,3 +11,72 @@
 .moveDown {
     margin-top: 8em;
 }
+
+header {
+    background-color:#000000;
+    display: grid;
+    grid-template-columns: 200px auto;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+nav a{
+    text-align: center;
+    color:yellow;
+    text-decoration: none;
+    font-family: 'lobster';
+    padding: 35px;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: blue;
+    color: #ffffff;
+}
+
+footer {
+    background-color: #000000;
+    color: yellow;
+    padding: 25px 50px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer p {
+    font-size: 1.2em;
+    font-family: 'roboto';
+    color: #ffd900;
+}  
+
+
+
+footer a {
+    text-decoration: none;
+    font-family: 'Lobster';
+    color: #ffffff;
+}
+
+footer a:hover {
+    color: #6bd41fb3;
+    text-decoration: none;
+}
+
+footer .social img {
+    padding: 30px;
+}
+
+
+    
+    footer {
+        margin-top: 25px;
+    }
+label{
+    color: yellow;
+}
