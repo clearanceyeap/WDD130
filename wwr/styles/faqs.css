@@ -77,14 +77,6 @@ section {
 
 
 
-body {
-    
-  background-size: cover; /* Adjusts the size of the background image to cover the entire body */
-  background-position: center; /* Centers the background image */
-  background-repeat: no-repeat; /* Prevents the background image from repeating */
-  /* You can add more background-related properties as needed */
-}
-
 
 
 main section img {

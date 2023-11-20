@@ -1,31 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato&family=Lobster&family=Montserrat:wght@600&family=Roboto+Slab&family=Roboto:wght@500&family=Rock+Salt&family=Rubik&display=swap');
+
 header {
     background-color:black;
     display: grid;
-    grid-template-columns: 100px auto;
+    grid-template-columns: 200px auto;
+    
 }
-nav {
+nav a{
+    text-align: center;
+    color:yellow;
+    text-decoration: none;
+    font-family: 'lobster';
+    padding: 35px;
+    font-size: large;
+}
+
+nav a:hover {
+    background-color: #ffd900;
+    color: #ffffff;
+}
+nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around
 }
 
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
-}
-
-#hero-box {
-    grid-column: 1/4;
-    grid-row: 1/3;
-    z-index: -1;
-}
-
-#hero-msg {
-    grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 100px;
-}
-.home-title {
+title {
     font-family: 'Lobster';
     font-size: 4em;
     margin-top: 10px;
@@ -34,3 +34,54 @@ main section {
     text-align: center;
     font-family: 'roboto';
 }
+header img{
+    
+    justify-self: center;
+    align-self: auto;
+    
+    border-radius: 80px;
+    
+}
+.logo{
+    width: 80px;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+h1{
+    font: 500;
+    color: orangered;
+    text-align: center;
+    font-family: 'rubik';
+    font-size: 48;
+}
+p{
+    text-align: center;
+    font-family: 'rubik';
+    font-size: 16;
+}
+footer{
+    background-color: #000000;
+    color: yellow;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+}
+footer p:hover{
+    font-style: italic;
+    cursor:pointer;
+    
+}
+footer a{
+    color: yellow;
+    
+   
+
+}
+
