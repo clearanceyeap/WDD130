@@ -8,6 +8,31 @@
     <title>Whitewater Rafting Vacation | Dry Oar Boating | Home</title>
 </head>
 <body>
+    <style>
+        
+
+        .rgb-spectrum {
+            font-size: 2em;
+            background: linear-gradient(90deg, 
+                rgb(255, 0, 0), rgb(255, 255, 0),
+                rgb(0, 255, 0), rgb(0, 255, 255),
+                rgb(0, 0, 255), rgb(255, 0, 255),
+                rgb(255, 0, 0));
+            
+            color: transparent;
+            background-size: 200% 100%;
+            animation: rainbow 4s linear infinite;
+        }
+
+        @keyframes rainbow {
+            0% {
+                background-position: 100% 0%;
+            }
+            100% {
+                background-position: -100% 0%;
+            }
+        }
+    </style>
     <header>
         <a id="logo_link" href="home.html">
             <img class="logo" src="images/wonderful.png" alt="Wonderful Logo">
@@ -54,7 +79,7 @@
         <img class="mountains" src="images/background_index.webp" alt="beautiful mountains">
         <section class="msg">
             <h2>Cuti Cuti Malaysia</h2>
-            <p> Enjoy the great scenery that are filled with wild outdoors activity. We are more than that.
+            <p class="rgb-spectrum"> Enjoy the great scenery that are filled with wild outdoors activity. We are more than that.
                 Semporna is filled with beautiful Island. Full of beautiful wild sea that can make you remember the
                 moments in your time here. Enjoy Scuba diving, Parasailing and hike beautiful mountains.
             </p>

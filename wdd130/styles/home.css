@@ -18,7 +18,8 @@ Fonts are separated by a & */
     border-radius: 50px;
 }
 header {
-    background-color:black;
+    background-color: #000000;
+    
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -46,8 +47,18 @@ nav {
     margin-top: 100px;
 }
 nav a{
+    font-size: 2em;
+    background: linear-gradient(90deg, 
+        rgb(255, 0, 0), rgb(255, 255, 0),
+        rgb(0, 255, 0), rgb(0, 255, 255),
+        rgb(0, 0, 255), rgb(255, 0, 255),
+        rgb(255, 0, 0));
+    
+    color: #000000;
+    background-size: 200% 100%;
+    animation: rainbow 4s linear infinite;
     text-align: center;
-    color:green;
+    
     text-decoration: none;
     font-family: 'Lobster';
     padding: 35px;
@@ -198,9 +209,9 @@ h2 {
 }
 
 .msg p {
-    color: #ffffff;
+    color: #000000;
     font-family: 'rubik';
-    font-size: 1.3em;
+    font-size: 2.0em;
     padding-bottom: 15px;
 }
 
@@ -258,5 +269,26 @@ footer .social img {
     footer {
         margin-top: 40px;
         height: 1000;
+    }
+}
+.rgb-spectrum {
+    font-size: 2em;
+    background: linear-gradient(90deg, 
+        rgb(255, 0, 0), rgb(255, 255, 0),
+        rgb(0, 255, 0), rgb(0, 255, 255),
+        rgb(0, 0, 255), rgb(255, 0, 255),
+        rgb(255, 0, 0));
+    
+    color: transparent;
+    background-size: 200% 100%;
+    animation: rainbow 4s linear infinite;
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: 100% 0%;
+    }
+    100% {
+        background-position: -100% 0%;
     }
 }
