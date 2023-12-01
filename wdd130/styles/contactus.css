@@ -122,6 +122,7 @@ footer p {
     font-size: 1.2em;
     font-family: 'roboto';
     color: #ffd900;
+    cursor: pointer;
 }  
 
 
@@ -130,6 +131,7 @@ footer a {
     text-decoration: none;
     font-family: 'Lobster';
     color: #ffffff;
+    cursor: pointer;
 }
 
 footer a:hover {
@@ -146,3 +148,14 @@ footer .social img {
     footer {
         margin-top: 25px;
     }
+.logo{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    border-radius: 20px;
+    
+}
+.logo_link{
+    justify-self: center;
+}
