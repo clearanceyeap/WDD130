@@ -55,6 +55,7 @@ nav a{
     background-size: 200% 100%;
     animation: rainbow 4s linear infinite;
     text-align: center;
+    border-radius: 80px;
     
     text-decoration: none;
     font-family: 'Lobster';
@@ -72,7 +73,8 @@ nav a:hover {
 }
 
 .logo {
-    width: 80px;
+    width: 100px;
+    
 }
 
 #hero-img {
