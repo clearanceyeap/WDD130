@@ -1,40 +1,48 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato&family=Lobster&family=Montserrat:wght@600&family=Roboto+Slab&family=Roboto:wght@500&family=Rock+Salt&family=Rubik&display=swap');
 
-header{
-    background-color: black;
-    display: grid;
-    grid-template-columns: 200px auto;
+header {
+    background-color: #000000;
     
+    display: grid;
+    grid-template-columns: 150px auto;
 }
+
 #logo_link {
     padding-top: 5px;
     justify-self: center;
     align-self: center;
+}
 .logo{
     width: 80px;
     display:flex;
 }
+.icon {
+    width: 80px;
+    padding-top: 10px;
 }
-nav a{
-    text-align: center;
-    color:yellow;
-    text-decoration: none;
-    font-family: 'lobster';
-    padding: 35px;
-    font-size: large;
-    font-style: italic;
-    cursor: progress;
+.logo {
+    width: 100px;
+    
+}
 
+nav a{
+    font-size: 1.5em;
+    color: green;
+    text-align: center;
+    border-radius: 80px;
+    
+    text-decoration: none;
+    font-family: 'Lobster';
+    padding: 35px;
 }
 nav a:hover {
     background-color: #ffd900;
     color: #ffffff;
-    font-style:italic
 }
-nav{
+nav {
     display: flex;
-    justify-content: space-around
+    justify-content: space-around;
 }
 h2{
     text-align: center;
@@ -65,24 +73,34 @@ p{
     font-size: 16;
     font-family: 'rubik';
 }
-footer{
+footer {
     background-color: black;
-    color: yellow;
-    padding: 50px 50px;
+    color: #ffffff;
+    padding: 25px 50px;
+    margin-top: 200px;
     display: flex;
-    margin-top: 100px;
     justify-content: space-around;
-    text-align: center;
-    cursor: pointer;
+    align-items: center;
 }
-footer p:hover{
+
+footer p {
+    font-size: 1.2em;
+    font-family: 'lobster';
+    color: red;
+}  
+footer p a:hover {
+    text-decoration: wavy;
+    color: green;
+}    
+footer a {
+    text-decoration: none;
+    font-family: 'lobster';
     color: yellow;
-    font-style: italic;
 }
-footer a{
-    color:white;
-    
+footer a:hover {
+    color: #6bd41fb3;
+    text-decoration: none;
 }
-footer a:hover{
-    color: yellow;
+footer .social img {
+    padding: 15px;
 }

@@ -81,11 +81,20 @@ textarea:valid~label{
     margin-top: 8em;
 }
 
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo {
+    border-radius: 50px;
+}
 header {
-    background-color:#000000;
-    display: grid;
-    grid-template-columns: 200px auto;
+    background-color: #000000;
     
+    display: grid;
+    grid-template-columns: 150px auto;
 }
 
 nav {
@@ -96,42 +105,56 @@ nav {
 
 
 nav a{
+    font-size: 1.5em;
+    color: green;
     text-align: center;
-    color:yellow;
+    border-radius: 80px;
+    
     text-decoration: none;
-    font-family: 'lobster';
+    font-family: 'Lobster';
     padding: 35px;
-    font-size: large;
 }
 
 nav a:hover {
-    background-color: blue;
+    background-color: #ffd900;
     color: #ffffff;
 }
 
+.icon {
+    width: 80px;
+    padding-top: 10px;
+}
+
+.logo {
+    width: 100px;
+    
+}
+
 footer {
-    background-color: #000000;
-    color: yellow;
+    background-color: black;
+    color: #ffffff;
     padding: 25px 50px;
-    margin-top: auto;
+    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
+
 footer p {
     font-size: 1.2em;
-    font-family: 'roboto';
-    color: #ffd900;
-    cursor: pointer;
+    font-family: 'lobster';
+    color: red;
 }  
 
-
+footer p a:hover {
+    text-decoration: wavy;
+    color: green;
+}    
 
 footer a {
     text-decoration: none;
-    font-family: 'Lobster';
-    color: #ffffff;
-    cursor: pointer;
+    font-family: 'lobster';
+    color: yellow;
 }
 
 footer a:hover {
@@ -140,22 +163,5 @@ footer a:hover {
 }
 
 footer .social img {
-    padding: 30px;
-}
-
-
-    
-footer {
-    margin-top: 25px;
-}
-.logo{
-    width: 100px;
-    align-items: center;
-    justify-content: center;
-    margin-left: 50px;
-    border-radius: 20px;
-    
-}
-.logo_link{
-    justify-self: center;
+    padding: 15px;
 }
